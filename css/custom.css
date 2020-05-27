@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+
+.postNote  { 
+  float:left; 
+  padding:10px 10px 10px;
+  margin:0 20px 20px 0;
+  /* width:250px;
+  height:250px;  */
+
+    width:100%;
+ /*  height:auto;  */
+ height:250px;
+}
+
+#create {
+  user-select:none;
+  padding:10px; 
+  border-radius:20px;
+  text-align:center; 
+  border:15px solid rgba(0,0,0,0.1); 
+  cursor:pointer;
+  color:rgba(0,0,0,0.1);
+  font:20px "Helvetica", sans-serif;
+  line-height:185px;
+}
+
+#create:hover { border-color:rgba(0,0,0,0.2); color:rgba(0,0,0,0.2); }
+
+
+
+.postNote {
+    font: 20px 'Roboto', cursive;
+    line-height: 1.5;
+    border: 0;
+    border-radius: 15px;
+    background: linear-gradient(#F9EFAF, #F7E98D);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: box-shadow 0.5s ease;
+    font-smoothing: subpixel-antialiased;
+    max-width: 520px;
+    max-height: 550px;
+}
+/* textarea:hover { box-shadow:0 5px 8px rgba(0,0,0,0.15); }
+textarea:focus { box-shadow:0 5px 12px rgba(0,0,0,0.2); outline:none; } */
+
+.postNote:hover { box-shadow:0 5px 8px rgba(0,0,0,0.15); }
+.postNote:focus { box-shadow:0 5px 12px rgba(0,0,0,0.2); outline:none; }
+
+
+
+/* begin base styles */
+/* https://milligram.github.io/ */
+@import url('//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic');
+@import url('//cdn.rawgit.com/necolas/normalize.css/master/normalize.css');
+@import url('//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css');
+
+
+/* begin base styles */
+/* https://milligram.github.io/ */
+@import url('//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic');
+@import url('//cdn.rawgit.com/necolas/normalize.css/master/normalize.css');
+@import url('//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css');
+
+body {
+  margin: 2em;
+  color: #333;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+form {
+  margin: 0;
+}
+/* end base styles */
+
+#bg-selector {
+  font-size: 1em;
+  font-style: italic;
+}
+.color {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #555;
+  display: inline-block;
+  margin: 0 0 0 0.2em;
+  cursor: pointer;
+  padding: 2px;
+}
+.color img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.black {
+  background-color: #000;
+}
+.gray,
+.picker {
+  background-color: #eaeaea;
+}
+.white {
+  background-color: #fff;
+}
+.blue {
+  background-color: #00529c;
+}
+#colorpicker { visibility: hidden; }
+
+
+
+...................................
+
