@@ -10,7 +10,7 @@
 	<meta name="author" content="Chirkut">
 
 
-	<title>Chirkut | চিরকুট</title>
+	<title>Chirkut | চিরকুট |</title>
 	<link rel="icon" href="images/logo3.png" type="image/png" sizes="16x16"> 
 
 	<link rel="stylesheet" href="css/main.min.css">
